@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lucida Handwriting', sans-serif; /* Change to a romantic cursive font */
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    background: url('image.jpg');
+    background-size: 100%;   
+    font-size: 40px;
+    color: whitesmoke;
+}
+.hh{
+    -webkit-text-stroke: 2px #71004f;
+    font-weight:900;
+    text-shadow: 5px 5px 5px black;
+
+}
+.pp{
+    -webkit-text-stroke: 2px #71004f;
+
+    font-size: 70px;
+    font-style: oblique;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px black;
+}
+
+body
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.image{
+    height: 280px;
+    
+}
+
+.buttons button {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 20px;
+    border-color: 5px black;
+    border-radius: 5px;
+    margin: 50px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+
+
+}
+
+.buttons button:hover {
+    background-color: #7c1f37;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#no-button{
+    
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.move {
+    animation: moveNoMessage 0.5s linear;
+}
+
+@keyframes moveNoMessage {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(30px, 30px); }
+    50% { transform: translate(-20px, -20px); }
+    75% { transform: translate(10px, 10px); }
+    100% { transform: translate(0, 0); }
+}

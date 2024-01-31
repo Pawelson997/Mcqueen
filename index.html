@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Autyzm HTML</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="catflower.jpg"></img>
+            <h1 class="hh" id="name">Hej cipcia</h1>
+            <p class="pp" id="question">Zostaniesz moją walentynką?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Nie(jestem pizdą)</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Oczywiście, że TAK </button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>No chyba Cię pojebało</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>Zajebiście, widzimy się 14 :DD</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
